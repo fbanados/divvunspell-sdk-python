@@ -1,5 +1,9 @@
 [project]
 name = "divvunspell"
+version = "0.2.0"
+authors = ["Brendan Molloy <brendan@bbqsrc.net>"]
+license = "Apache-2.0 OR MIT"
+
 
 [build-system]
 requires = ["maturin>=0.11,<0.12"]
