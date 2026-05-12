@@ -1,4 +1,6 @@
 [package]
+name = "divvunspell"
+version = "0.2.1"
 edition = "2018"
 
 # Has the same name as the real divvunspell. This is just the Python wrapper.
