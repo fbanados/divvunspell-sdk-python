@@ -2,7 +2,7 @@
 name = "divvunspell"
 version = "0.2.1"
 requires_python = ">=3.10"
-authors = [{name = "Brendan Molloy", email = "brendan@bbqsrc.net"]
+authors = [{name = "Brendan Molloy", email = "brendan@bbqsrc.net"}]
 license = "Apache-2.0 OR MIT"
 classifiers = [
   "Programming Language :: Rust"
