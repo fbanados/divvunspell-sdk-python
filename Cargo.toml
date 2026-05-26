@@ -11,5 +11,5 @@ name = "divvunspell"
 crate-type = ["cdylib"]
 
 [dependencies]
-divvunspell = { git = "https://github.com/divvun/divvunspell", branch = "main", features = ["compression"] }
+divvunspell = { version = "1.0.0-beta.3" } # { git = "https://github.com/divvun/divvunspell", branch = "main", features = ["compression"] }
 pyo3 = { version="0.13.2" , features = ["extension-module"]}
