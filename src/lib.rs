@@ -85,7 +85,7 @@ impl Speller {
         let results = speller.suggest(&word);
         Ok(results
             .into_iter()
-            .map(|x| (x.value.to_string(), x.weight))
+            .map(|x| (x.value.to_string(), x.weight.0))
             .collect::<Vec<_>>())
     }
 
