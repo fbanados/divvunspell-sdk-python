@@ -1,6 +1,6 @@
 use std::sync::Arc;
 
-use ::divvunspell::{archive, speller};
+use ::divvun_fst::{archive, speller};
 use pyo3::prelude::*;
 
 /// Use spell checker archives compatible with the [divvunspell] project.
